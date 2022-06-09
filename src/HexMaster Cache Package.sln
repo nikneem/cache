@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31410.414
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexMaster.RedisCache", "HexMaster.RedisCache\HexMaster.RedisCache.csproj", "{8D7D0099-1870-4967-A4BA-E5D543AD4AF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexMaster.RedisCache.Abstractions", "HexMaster.RedisCache.Abstractions\HexMaster.RedisCache.Abstractions.csproj", "{0AF1007F-C465-4B3B-BA9E-2DBDE1BBD32D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D7D0099-1870-4967-A4BA-E5D543AD4AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D7D0099-1870-4967-A4BA-E5D543AD4AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D7D0099-1870-4967-A4BA-E5D543AD4AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D7D0099-1870-4967-A4BA-E5D543AD4AF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AF1007F-C465-4B3B-BA9E-2DBDE1BBD32D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AF1007F-C465-4B3B-BA9E-2DBDE1BBD32D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AF1007F-C465-4B3B-BA9E-2DBDE1BBD32D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AF1007F-C465-4B3B-BA9E-2DBDE1BBD32D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B015B7C3-8054-4A65-B9B3-746D58A5411E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Authors>Eduard Keilholz</Authors>
+    <Company />
+    <Description>This is a wrapper around the Redis Cache client implementing the Cache-Aside pattern</Description>
+    <Copyright>2022</Copyright>
+    <PackageProjectUrl>https://github.com/nikneem/cache</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/nikneem/cache</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>cache;redit;azure;cache-aside;cache aside</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Configuration\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="6.0.0" />
+    <PackageReference Include="StackExchange.Redis" Version="2.5.61" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HexMaster.RedisCache.Abstractions\HexMaster.RedisCache.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
