@@ -37,7 +37,7 @@ namespace HexMaster.RedisCache
             return registration.GetClient(_cacheConfigurationOptions.Value, _clientLogger);
         }
 
-        internal CacheClientFactory(
+        public CacheClientFactory(
             IOptions<CacheConfiguration> cacheConfigurationOptions,
             IEnumerable<CacheClientRegistration> clientRegistrations,
             ILogger<CacheClientFactory> logger,
